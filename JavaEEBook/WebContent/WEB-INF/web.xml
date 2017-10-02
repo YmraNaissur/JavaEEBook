@@ -16,6 +16,11 @@
     <servlet-name>FlagsHandlerServlet</servlet-name>
     <servlet-class>testServlets.FlagsHandlerServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ConfirmationServlet</servlet-name>
+  	<servlet-class>testServlets.ConfirmationServlet</servlet-class>
+  </servlet>
+  
   <servlet-mapping>
     <servlet-name>SimpleServlet</servlet-name>
     <url-pattern>/simpleservlet</url-pattern>
@@ -27,5 +32,9 @@
   <servlet-mapping>
     <servlet-name>FlagsHandlerServlet</servlet-name>
     <url-pattern>/flagshandlerservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ConfirmationServlet</servlet-name>
+  	<url-pattern>/confirmationservlet</url-pattern>
   </servlet-mapping>
 </web-app>
