@@ -30,12 +30,12 @@ public class ConfirmationServlet extends HttpServlet {
 			out.println("<body>");
 			
 			if (selectedLabels != null) {
-				out.println("<p>Вы выбрали:</p>");
+				out.println("<p>Р’С‹ РІС‹Р±СЂР°Р»Рё:</p>");
 				for (String label: selectedLabels) {
 					out.println("<p>" + label + "</p>");
 				}
 			} else {
-				out.println("<p>Никаких опций выбрано не было.</p>");
+				out.println("<p>РќРёРєР°РєРёС… РѕРїС†РёР№ РІС‹Р±СЂР°РЅРѕ РЅРµ Р±С‹Р»Рѕ.</p>");
 			}
 			
 			out.println("</body>");

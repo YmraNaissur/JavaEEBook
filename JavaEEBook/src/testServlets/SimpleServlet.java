@@ -22,7 +22,7 @@ public class SimpleServlet extends HttpServlet {
 			out.println("</head>");
 			out.println("<body>");
 			out.println("<h2>");
-			out.println("Если вы видите это, значит сервлет работает");
+			out.println("Р•СЃР»Рё РІС‹ С‡РёС‚Р°РµС‚Рµ СЌС‚Рѕ, Р·РЅР°С‡РёС‚ СЃРµСЂРІР»РµС‚ СЂР°Р±РѕС‚Р°РµС‚ Р·Р°С€РёР±РёСЃСЊ.");
 			out.println("</h2>");
 			out.println("</body>");
 			out.println("</html>");

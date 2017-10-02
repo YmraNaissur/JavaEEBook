@@ -24,7 +24,7 @@ public class FormHandlerServlet extends HttpServlet {
 			out.println("</head>");
 			out.println("<body>");
 			out.println("<p>");
-			out.print("Âû ââåëè: ");
+			out.print("Ğ’Ñ‹ Ğ²Ğ²ĞµĞ»Ğ¸: ");
 			out.print(enteredValue);
 			out.print("</p>");
 			out.println("</body>");

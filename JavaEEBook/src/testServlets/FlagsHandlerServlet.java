@@ -23,13 +23,13 @@ public class FlagsHandlerServlet extends HttpServlet {
 			for (String option: options) {
 				switch (option) {
 					case "option1":
-						selectedOptionLabels.add("Опция 1");
+						selectedOptionLabels.add("РћРїС†РёСЏ 1");
 						break;
 					case "option2":
-						selectedOptionLabels.add("Опция 2");
+						selectedOptionLabels.add("РћРїС†РёСЏ 2");
 						break;
 					case "option3":
-						selectedOptionLabels.add("Опция 3");
+						selectedOptionLabels.add("РћРїС†РёСЏ 3");
 						break;
 				}
 			}
