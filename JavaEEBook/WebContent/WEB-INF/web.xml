@@ -33,6 +33,10 @@
   		<param-value>Это устанавливается в файле web.xml</param-value>
   	</init-param>
   </servlet>
+  <servlet>
+  	<servlet-name>ImplicitObjects2</servlet-name>
+  	<jsp-file>/jsp/implicitobjects2.jsp</jsp-file>
+  </servlet>
   
   <servlet-mapping>
     <servlet-name>SimpleServlet</servlet-name>
@@ -53,5 +57,9 @@
   <servlet-mapping>
   	<servlet-name>ImplicitObjectsJsp</servlet-name>
   	<url-pattern>/implicitobjects</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ImplicitObjects2</servlet-name>
+  	<url-pattern>/implicitobjects2</url-pattern>
   </servlet-mapping>
 </web-app>

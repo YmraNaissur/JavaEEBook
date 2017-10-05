@@ -41,7 +41,7 @@
 			%>
 		</p>
 		<p>
-			<a href="implicitobjects2.jsp">Щелкните здесь для продолжения.</a>
+			<a href="implicitobjects2">Щелкните здесь для продолжения.</a>
 		</p>
 	</body>
 </html>
